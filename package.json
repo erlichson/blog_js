@@ -1,0 +1,14 @@
+{
+  "name": "blog_js",
+  "version": "1.0.0",
+  "description": "My Blog",
+  "main": "blog.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Andrew Erlichson",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.12.0"
+  }
+}
