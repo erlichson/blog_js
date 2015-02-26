@@ -9,6 +9,7 @@
   "author": "Andrew Erlichson",
   "license": "ISC",
   "dependencies": {
-    "express": "^4.12.0"
+    "express": "^4.12.0",
+    "mongodb": "^1.4.31"
   }
 }
