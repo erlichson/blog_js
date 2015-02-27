@@ -30,6 +30,9 @@ app.get('/', function (req,res) {
 // it is meant to be called by the front end
 app.get('/recent_posts', function(request, response) {
     var posts = db.collection('posts');
+    response.setHeader("Access-Control-Allow-Origin", "*");
+
+    console.log("recent_posts fetch");
     posts.find().sort({'date':-1}).limit(10).toArray(function(err, entries) {
 	response.send(entries);
     })
